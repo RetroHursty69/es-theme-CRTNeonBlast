@@ -1,0 +1,30 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system, basic, detailed, video">
+		<image name="logo">
+			<path>./_inc/system.png</path>
+		</image>
+	</view>
+	<view name="system,basic">		
+      <image name="system-background" extra="true">
+         <origin>0 0</origin>
+         <pos>0.476 0.23</pos>
+         <size>0.445 0.52</size>
+         <tile>false</tile>
+         <path>./_inc/crt.png</path>
+         <zIndex>45</zIndex>          
+      </image>     			
+	</view>
+	<view name="video,detailed">		
+      <image name="system-background" extra="true">
+         <origin>0 0</origin>
+         <pos>0.442 0.622</pos>
+         <size>0.27 0.30</size>
+         <tile>false</tile>
+         <path>./_inc/crt.png</path>
+         <zIndex>45</zIndex>          
+      </image>     			
+	</view>	
+</theme>
